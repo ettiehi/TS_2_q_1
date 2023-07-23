@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script src="wordCounter.js"></script>
+<script>
+  const input = "That's the crypt: CRYPT 222'!', cried the Special Agent.\nSo I fled.";
+  const wordCounts = wordCounter(input);
+
+  // Print the word counts.
+  for (let word in wordCounts) {
+    console.log(word + ': ' + wordCounts[word]);
+  }
+</script>
+</body>
+</html>
